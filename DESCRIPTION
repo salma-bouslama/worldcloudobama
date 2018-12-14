@@ -1,0 +1,11 @@
+Package: worldcloudobama
+Type: Package
+Title: world cloud of OBAMA speech
+Version: 0.1.0
+Author: Salma Bouslama
+Maintainer: SalmaBouslama <salmabouslama55@gmail.com>
+Description: this package allows you to do a text mining for obama speech in 2015. the output is a wordcloud.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
