@@ -5,7 +5,7 @@ obama_speech <- function() {
   library(tm)
   library(readr)
   library(wordcloud)
-  txt=readLines("speech.txt")
+  txt=readLines("https://raw.githubusercontent.com/salma-bouslama/worldcloudobama/master/R/speech.txt")
   txt[1:10]
   # On va nettoyer  les données, supprimer les ponctuations
   txt <- removePunctuation(txt)
