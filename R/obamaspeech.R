@@ -4,7 +4,7 @@ obama_speech <- function() {
 
   library(tm)
   library(wordcloud)
-  txt=readLines("C:/Users/USER/Desktop/essai/datamining/textmining/speech.txt")
+  txt=readLines("speech.txt")
   txt[1:10]
   # On va nettoyer  les données, supprimer les ponctuations
   txt <- removePunctuation(txt)
