@@ -3,6 +3,7 @@
 obama_speech <- function() {
 
   library(tm)
+  library(readr)
   library(wordcloud)
   txt=readLines("speech.txt")
   txt[1:10]
